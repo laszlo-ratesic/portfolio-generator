@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-generator",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laszlo-ratesic/portfolio-generator.git"
+  },
+  "author": "Keenan Chiasson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laszlo-ratesic/portfolio-generator/issues"
+  },
+  "homepage": "https://github.com/laszlo-ratesic/portfolio-generator#readme",
+  "description": "A porfolio generator using node and inquirer",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "keywords": [
+    "portfolio",
+    "generator"
+  ]
+}
