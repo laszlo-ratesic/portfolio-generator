@@ -12,40 +12,6 @@ const generateAbout = (aboutText) => {
 };
 
 const generateProjects = (projectsArr) => {
-  // get array of just featured projects
-  const featuredProjects = projectsArr.filter((project) => {
-    if (project.feature) {
-      return true;
-    } else {
-      return false;
-    }
-  });
-
-  // get array of all non-featured projects
-  const nonFeaturedProjects = projectsArr.filter((project) => {
-    if (!project.feature) {
-      return true;
-    } else {
-      return false;
-    }
-  });
-
-  const featuredProjectHtmlArr = featuredProjects.map(
-    ({ name, description, languages, link }) => {
-      return `
-
-    `;
-    }
-  );
-
-  const nonFeaturedProjectHtmlArr = nonFeaturedProjects.map(
-    ({ name, description, languages, link }) => {
-      return `
-
-      `;
-    }
-  );
-
   return `
   <section class="my-3" id="portfolio">
     <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
